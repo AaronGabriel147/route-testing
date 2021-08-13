@@ -4,13 +4,14 @@ import { Link } from 'react-router-dom';
 
 const Navigation = () => {
 
-    const NavStyle = {
+    const NavStyle = { // Just changes the text color.
         color: 'white'
     };
 
     return (
         <nav>
-            <h1>Navigation.js</h1>
+
+            {/* <h1>Navigation.js</h1> */}
             <ul className="nav-links">
 
                 <Link style={NavStyle} to="/">
@@ -18,11 +19,11 @@ const Navigation = () => {
                 </Link>
 
                 <Link style={NavStyle} to="about">
-                    <li>About</li>
+                    <li>Rick & Morty</li>
                 </Link>
 
                 <Link style={NavStyle} to="cosmos">
-                    <li>Cosmos</li>
+                    <li>Nasa Photo of the Day</li>
                 </Link>
 
             </ul>

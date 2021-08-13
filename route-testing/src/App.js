@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Switch, Route, useParams, useHistory } from 'react-router-dom';
+
 import './App.css';
 import React from 'react';
 
@@ -5,9 +7,7 @@ import Navigation from './components/Navigation';
 import Cosmos from './components/Cosmos';
 import About from './components/About';
 import Home from './components/Home';
-
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-
+import Large from './components/Large'; // Have not used this yet.
 
 
 function App() {
